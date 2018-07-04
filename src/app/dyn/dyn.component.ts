@@ -25,7 +25,7 @@ import { ServiceTwo } from './../services/servicetwo.service';
 })
 export class DynComponent implements OnChanges, OnInit {
   @ViewChild('container', {read: ViewContainerRef}) container: ViewContainerRef;
-  @Input() dyntype = 'one';
+  @Input() public dyntype;
 
   componentList = {
     'one': DynoneComponent,

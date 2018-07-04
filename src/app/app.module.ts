@@ -10,14 +10,14 @@ import { ServiceTwo } from './services/servicetwo.service';
 @NgModule({
   declarations: [
     AppComponent,
-    DynComponent,
-    DynoneComponent,
-    DyntwoComponent
+    // DynComponent,
+    // DynoneComponent,
+    // DyntwoComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [ServiceOne, ServiceTwo],
+  // providers: [ServiceOne, ServiceTwo],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

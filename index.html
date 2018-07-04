@@ -1,0 +1,16 @@
+<html>
+<body>
+
+<button onclick="onClick('one')">One</button>
+<button onclick="onClick('two')">Two</button>
+
+<app-dyn id="dyn" dyntype="one"></app-dyn> 
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.001f1812942338ddb405.js"></script><script type="text/javascript" src="scripts.382e543664d808e0d91a.js"></script><script type="text/javascript" src="main.f5946682e79cd1f2adea.js"></script>
+
+<script>
+	function onClick(val){
+		document.querySelector('app-dyn').attributes['dyntype'].value = val;
+	}
+</script>
+</body>
+</html>
